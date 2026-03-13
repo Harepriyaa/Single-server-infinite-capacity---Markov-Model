@@ -26,6 +26,24 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 ![image](https://github.com/ramjan1729/Single-server-infinite-capacity---Markov-Model/assets/103921593/5f1fd58d-5929-4c51-89ea-4cef009e5bad)
 
 ## Output :
+```
+Enter the mean inter arrival time of objects from Feeder (in secs): 15
+Enter the mean  inter service time of Lathe Machine (in secs) :  5
+Enter the Additional time taken for the Robot (in secs) :  3
+--------------------------------------------------------------
+Single Server with Infinite Capacity - (M/M/1):(oo/FIFO)
+--------------------------------------------------------------
+The mean arrival rate per second : 0.07
+The mean service rate per second : 0.12
+Average number of objects in the system : 1.14
+Average number of objects in the conveyor :  0.61
+Average waiting time of an object in the system : 17.14 secs
+Average waiting time of an object in the conveyor : 9.14 secs
+Probability that the system is busy : 0.53
+Probability that the system is empty : 0.47
+---------------------------------------------------------------
+```
 
 ## Result :
 
+Thus the program has been successfully executed 
